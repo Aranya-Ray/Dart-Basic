@@ -8,7 +8,19 @@ void main()
 }
 
 
-
+void main (){
+    int weight = 55;
+    if (weight>80){
+        print ("you are motu");
+    }
+        else if (weight==5){
+          print("you are baby");  
+        }
+        else {
+            print ("you are patlu");
+        }
+    
+}
 
 
 
