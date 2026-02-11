@@ -47,29 +47,6 @@ void main (){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void main(){
     double hight = 5.5;
     if (hight < 6 ){
