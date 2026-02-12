@@ -14,3 +14,27 @@ void main() {
   var check = (age >= 18) ? 'You ara a voter.' : 'You are not a voter.';
   print(check);
 }
+
+
+
+
+void main(){
+    int a = 55;
+    String max = (a>=55) ? "motu":"patlu";
+    print (max);
+}
+
+
+
+
+
+void main(){
+    int a = 778;
+    int b = 566;
+    int min = (a>b)? b:a;
+    print(min);
+}
+
+
+
+
