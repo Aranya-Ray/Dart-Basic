@@ -7,3 +7,26 @@ void main (){
     }while (i>=30);
     
 }
+
+
+
+
+
+void main(){
+    int a = 0;
+    do{
+        print("$a");
+        a++;
+        
+    }while (a<=10);
+}
+
+
+void main(){
+    int a = 0;
+    do{
+        print("$a");
+        a++;
+        
+    }while (a<10);
+}
