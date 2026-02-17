@@ -7,7 +7,7 @@ void main(){
     print((userid == 1213) && (userpin== 456)); // print false.
     print((userid == 123) || (userpin== 456)); // print true.
     print((userid == 1213) || (userpin== 456)); // print true
-    print((userid == 123) != (userpin== 4556)); //print false
+    print((userid == 123) != (userpin== 456)); //print false
 }
 
 
