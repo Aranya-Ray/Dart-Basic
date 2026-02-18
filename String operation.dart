@@ -1,3 +1,17 @@
+void main(){
+    String a = "Aranya";
+    String b = "Ray";
+   
+    print("${a.toUpperCase()}");
+    print("${b.toLowerCase()}");
+    
+}
+
+
+
+
+
+
 void main() { 
   String address1 = "Florida"; // Here F is capital
   String address2 = "TexAs"; // Here T and A are capital
