@@ -1,34 +1,16 @@
-import "dart:io";
-void main(){
-    print("Enter a Number: ");
-    int ? number = int.parse(stdin.readLineSync()!);
-    double Result = number % 2;
-    print(Result);
-    if(Result==0){
-    print("The number is even");
-    }
-    else{
-        print("The number is not even");
-    }
-}
+import 'dart:io';
 
+void main() {
+  print("Enter a number:");
+  int number = int.parse(stdin.readLineSync()!);
 
-
-import "dart:io";
-void main(){
-    print("Enter a Number:");
-    int ? number = int.parse(stdin.readLineSync()!);
-    for(int i=2;i < number; i++){
-        if(number%i==0){
-            print("not prime number");
-            break;
-            
-        }
-      
-      else{
-          print(" prime number");
-          break;
-      }   
+ 
+  for (int i = 2; i < number; i++) {
+    if (number % i == 0) {
+      print("Not a prime number");
+      return;
     }
-    
+  }
+
+  print("Prime number");
 }
